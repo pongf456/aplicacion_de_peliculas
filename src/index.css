@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+#root {
+  width: 100vw;
+  height: 100vh;
+  background-color: #0d1117;
+}
+@font-face {
+  font-family: Dmsans;
+  src: url(/DMSans-VariableFont_opsz,wght.ttf);
+}
+@font-face {
+  font-family: Lexend;
+  src: url(/LexendDeca-VariableFont_wght.ttf);
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #70707000;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #252525;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
