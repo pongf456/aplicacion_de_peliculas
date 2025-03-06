@@ -8,12 +8,12 @@ export const Home = () =>{
     return <>
         <Helmet>
             <title>{import.meta.env.VITE_PROJECT_NAME + " - home"}</title>
-            <meta name="description" content="The pongf project to watch movies" />
+            <meta name="description" content="Proyecto para visualizar series y películas tdpmovies." />
             <meta name="keywords" content="Movies, Tv" />
             <meta name="author" content="PongfZT" />
             <meta property="og:type" content="website"></meta>
             <meta property="og:title" content= {import.meta.env.VITE_PROJECT_NAME + " - home"} />
-            <meta property="og:description" content="The pongf project to watch movies" />
+            <meta property="og:description" content="Proyecto para visualizar series y películas tdpmovies." />
             <meta property="og:url" content={location.href} />
         </Helmet>
         <div className="w-full h-[8%] flex items-center  justify-center">
